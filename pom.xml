@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jolly.framework.insipid</groupId>
-    <artifactId>jolly-permission</artifactId>
+    <groupId>com.jolly.upms</groupId>
+    <artifactId>jolly-upms</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>jolly-permission</name>
+    <name>jolly-upms</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,11 +17,11 @@
     </properties>
 
     <modules>
-        <module>jolly-permission-common</module>
-        <module>jolly-permission-dao</module>
-        <module>jolly-permission-rpc-api</module>
-        <module>jolly-permission-rpc-service</module>
-        <module>jolly-permission-client</module>
-        <module>jolly-permission-server</module>
+        <module>jolly-upms-common</module>
+        <module>jolly-upms-dao</module>
+        <module>jolly-upms-rpc-api</module>
+        <module>jolly-upms-rpc-service</module>
+        <module>jolly-upms-client</module>
+        <module>jolly-upms-server</module>
     </modules>
 </project>
