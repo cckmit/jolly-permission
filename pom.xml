@@ -23,5 +23,7 @@
         <module>jolly-upms-rpc-service</module>
         <module>jolly-upms-client</module>
         <module>jolly-upms-server</module>
+        <module>jolly-common</module>
+        <module>jolly-admin</module>
     </modules>
 </project>

@@ -49,8 +49,8 @@
                 <version>1.3.2</version>
                 <dependencies>
                     <dependency>
-                        <groupId>com.jolly.insipid</groupId>
-                        <artifactId>insipid-common</artifactId>
+                        <groupId>com.jolly.upms</groupId>
+                        <artifactId>jolly-upms-common</artifactId>
                         <version>1.0.0</version>
                     </dependency>
                 </dependencies>
