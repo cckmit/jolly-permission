@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+
+    <!-- 系统 -->
+    <bean id="upmsSystemService" class="com.jolly.upms.rpc.service.impl.UpmsSystemServiceImpl"/>
+
+
+    <!-- 组织 -->
+    <bean id="upmsOrganizationService" class="com.jolly.upms.rpc.service.impl.UpmsOrganizationServiceImpl"/>
+
+
+    <!-- 用户组织 -->
+    <bean id="upmsUserOrganizationService" class="com.jolly.upms.rpc.service.impl.UpmsUserOrganizationServiceImpl"/>
+
+
+    <!-- 用户 -->
+    <bean id="upmsUserService" class="com.jolly.upms.rpc.service.impl.UpmsUserServiceImpl"/>
+
+
+    <!-- 角色 -->
+    <bean id="upmsRoleService" class="com.jolly.upms.rpc.service.impl.UpmsRoleServiceImpl"/>
+
+
+    <!-- 权限 -->
+    <bean id="upmsPermissionService" class="com.jolly.upms.rpc.service.impl.UpmsPermissionServiceImpl"/>
+
+
+    <!-- 角色权限 -->
+    <bean id="upmsRolePermissionService" class="com.jolly.upms.rpc.service.impl.UpmsRolePermissionServiceImpl"/>
+
+
+    <!-- 用户权限 -->
+    <bean id="upmsUserPermissionService" class="com.jolly.upms.rpc.service.impl.UpmsUserPermissionServiceImpl"/>
+
+
+    <!-- 用户角色 -->
+    <bean id="upmsUserRoleService" class="com.jolly.upms.rpc.service.impl.UpmsUserRoleServiceImpl"/>
+
+
+    <!-- 操作日志 -->
+    <bean id="upmsLogService" class="com.jolly.upms.rpc.service.impl.UpmsLogServiceImpl"/>
+
+
+    <!-- 接口服务 -->
+    <bean id="upmsApiService" class="com.jolly.upms.rpc.service.impl.UpmsApiServiceImpl"/>
+
+
+</beans>
