@@ -14,11 +14,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>权限管理系统</title>
 
-	<link href="${basePath}/resources/insipid-admin/plugins/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
-	<link href="${basePath}/resources/insipid-admin/plugins/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"/>
-	<link href="${basePath}/resources/insipid-admin/plugins/waves-0.7.5/waves.min.css" rel="stylesheet"/>
-	<link href="${basePath}/resources/insipid-admin/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
-	<link href="${basePath}/resources/insipid-admin/css/admin.css" rel="stylesheet"/>
+	<link href="${basePath}/resources/upms-admin/plugins/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="${basePath}/resources/upms-admin/plugins/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"/>
+	<link href="${basePath}/resources/upms-admin/plugins/waves-0.7.5/waves.min.css" rel="stylesheet"/>
+	<link href="${basePath}/resources/upms-admin/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+	<link href="${basePath}/resources/upms-admin/css/admin.css" rel="stylesheet"/>
 	<style>
 		/** skins **/
 		<c:forEach var="upmsSystem" items="${upmsSystems}">
@@ -40,7 +40,7 @@
 		</li>
 		<li id="logo" class="hidden-xs">
 			<a href="${basePath}/manage/index">
-				<img src="${basePath}/resources/insipid-admin/images/logo.png"/>
+				<img src="${basePath}/resources/upms-admin/images/logo.png"/>
 			</a>
 			<span id="system_title">权限管理系统</span>
 		</li>
@@ -199,15 +199,15 @@
 </section>
 <footer id="footer"></footer>
 <script>var BASE_PATH = '${basePath}';</script>
-<script src="${basePath}/resources/insipid-admin/plugins/jquery.1.12.4.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/bootstrap-3.3.0/js/bootstrap.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/waves-0.7.5/waves.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/BootstrapMenu.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/device.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/jquery.cookie.js"></script>
-<script src="${basePath}/resources/insipid-admin/js/admin.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/fullPage/jquery.fullPage.min.js"></script>
-<script src="${basePath}/resources/insipid-admin/plugins/fullPage/jquery.jdirk.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/jquery.1.12.4.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/bootstrap-3.3.0/js/bootstrap.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/waves-0.7.5/waves.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/BootstrapMenu.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/device.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/jquery.cookie.js"></script>
+<script src="${basePath}/resources/upms-admin/js/admin.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/fullPage/jquery.fullPage.min.js"></script>
+<script src="${basePath}/resources/upms-admin/plugins/fullPage/jquery.jdirk.min.js"></script>
 </body>
 </html>
