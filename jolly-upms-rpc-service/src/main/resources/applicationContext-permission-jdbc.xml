@@ -25,7 +25,6 @@
                 <value>classpath:jolly-upms-client.properties</value>
             </list>
         </property>
-        <property name="order" value="1" />
     </bean>
 
     <!-- 主库数据源 -->

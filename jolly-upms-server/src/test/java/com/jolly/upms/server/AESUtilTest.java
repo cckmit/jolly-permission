@@ -10,6 +10,6 @@ public class AESUtilTest {
     @Test
     public void testAESUtil(){
         System.out.println(AESUtil.AESEncode("ted123!@"));
-        System.out.println(AESUtil.AESDecode("H0GjdZCmzgwCYtGHQgO54g=="));
+        System.out.println(AESUtil.AESDecode("JbYUGil0P8ZNseuW6384sA=="));
     }
 }
